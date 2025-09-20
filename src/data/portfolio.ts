@@ -133,12 +133,12 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: "File Sharing App",
-    description: "A LAN-only web app for fast file sharing across devices on the same network — no internet required.",
-    image: "/project4.jpg",
-    technologies: ["React","TailwindCSS", "TypeScript", "Node.js", "Express.js","multer"],
-    githubUrl: "https://github.com/barikbibek/File-Sharing-app.git",
-    liveUrl: "",
+    title: "URL Shortener",
+    description: "A fast and reliable URL shortener with copy shortened link support, dark mode, and one-click sharing for social platforms.",
+    image: "/project6.jpg",
+    technologies: ["React", "Cloudflare workers", "cloudflare KV", "Hono", "TailwindCSS"],
+    githubUrl: "https://github.com/barikbibek/URL-Shortener",
+    liveUrl: "https://quicklnk.netlify.app/",
     featured: true
   },
   {
@@ -183,12 +183,12 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Blog Platform",
-    description: "A content management system for bloggers with markdown support, SEO optimization, and analytics dashboard.",
-    image: "/project3.jpg",
-    technologies: ["React", "Node.js", "MySQL", "Express.js", "TailwindCSS"],
-    githubUrl: "https://github.com/alexsmith/blog-platform",
-    liveUrl: "https://blog-demo.vercel.app",
+    title: "File Sharing App",
+    description: "A LAN-only web app for fast file sharing across devices on the same network — no internet required.",
+    image: "/project4.jpg",
+    technologies: ["React","TailwindCSS", "TypeScript", "Node.js", "Express.js","multer"],
+    githubUrl: "https://github.com/barikbibek/File-Sharing-app.git",
+    liveUrl: "",
     featured: false
   }
 ];
